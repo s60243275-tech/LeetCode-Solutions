@@ -1,0 +1,1 @@
+class CheckPangram { public boolean checkIfPangram(String sentence) { boolean[] seen=new boolean[26]; int count=0; for(char c:sentence.toCharArray()){int i=c-'a'; if(!seen[i]){seen[i]=true;count++;}} return count==26; } }
